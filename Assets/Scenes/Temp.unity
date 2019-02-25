@@ -347,8 +347,8 @@ GameObject:
   - component: {fileID: 378191715}
   - component: {fileID: 378191717}
   - component: {fileID: 378191716}
+  - component: {fileID: 378191720}
   - component: {fileID: 378191718}
-  - component: {fileID: 378191719}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -416,17 +416,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2416c90c76c854a4ab7d374ba709e524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &378191719
-MonoBehaviour:
+--- !u!225 &378191720
+CanvasGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 378191714}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8008012e23f98b48afab960b4b5619d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &401692417
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,8 +438,9 @@ GameObject:
   - component: {fileID: 401692421}
   - component: {fileID: 401692420}
   - component: {fileID: 401692419}
-  - component: {fileID: 401692423}
   - component: {fileID: 401692422}
+  - component: {fileID: 401692423}
+  - component: {fileID: 401692424}
   m_Layer: 5
   m_Name: MainSlot (2)
   m_TagString: Untagged
@@ -545,6 +546,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2416c90c76c854a4ab7d374ba709e524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!225 &401692424
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 401692417}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &405384384
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,8 +566,8 @@ GameObject:
   m_Component:
   - component: {fileID: 405384385}
   - component: {fileID: 405384386}
+  - component: {fileID: 405384389}
   - component: {fileID: 405384387}
-  - component: {fileID: 405384388}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -600,17 +612,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2416c90c76c854a4ab7d374ba709e524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &405384388
-MonoBehaviour:
+--- !u!225 &405384389
+CanvasGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 405384384}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8008012e23f98b48afab960b4b5619d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &745391047
 GameObject:
   m_ObjectHideFlags: 0
@@ -794,8 +806,9 @@ GameObject:
   - component: {fileID: 1185394651}
   - component: {fileID: 1185394650}
   - component: {fileID: 1185394649}
-  - component: {fileID: 1185394653}
   - component: {fileID: 1185394652}
+  - component: {fileID: 1185394653}
+  - component: {fileID: 1185394654}
   m_Layer: 5
   m_Name: MainSlot (1)
   m_TagString: Untagged
@@ -901,6 +914,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2416c90c76c854a4ab7d374ba709e524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!225 &1185394654
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1185394647}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1351337167
 GameObject:
   m_ObjectHideFlags: 0
@@ -911,6 +935,7 @@ GameObject:
   - component: {fileID: 1351337168}
   - component: {fileID: 1351337169}
   - component: {fileID: 1351337171}
+  - component: {fileID: 1351337172}
   - component: {fileID: 1351337170}
   m_Layer: 5
   m_Name: Panel (1)
@@ -967,6 +992,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8008012e23f98b48afab960b4b5619d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!225 &1351337172
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1351337167}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1534464595
 GameObject:
   m_ObjectHideFlags: 0
@@ -1140,6 +1176,8 @@ GameObject:
   - component: {fileID: 1704139518}
   - component: {fileID: 1704139517}
   - component: {fileID: 1704139519}
+  - component: {fileID: 1704139520}
+  - component: {fileID: 1704139521}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -1210,6 +1248,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8008012e23f98b48afab960b4b5619d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!225 &1704139520
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1704139515}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &1704139521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1704139515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2416c90c76c854a4ab7d374ba709e524, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1798513725
 GameObject:
   m_ObjectHideFlags: 0
@@ -1221,6 +1281,7 @@ GameObject:
   - component: {fileID: 1798513729}
   - component: {fileID: 1798513728}
   - component: {fileID: 1798513727}
+  - component: {fileID: 1798513730}
   m_Layer: 5
   m_Name: MainSlot
   m_TagString: Untagged
@@ -1303,6 +1364,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1798513725}
   m_CullTransparentMesh: 0
+--- !u!114 &1798513730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1798513725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2416c90c76c854a4ab7d374ba709e524, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2022230740
 GameObject:
   m_ObjectHideFlags: 0
@@ -1314,8 +1386,9 @@ GameObject:
   - component: {fileID: 2022230744}
   - component: {fileID: 2022230743}
   - component: {fileID: 2022230742}
-  - component: {fileID: 2022230746}
   - component: {fileID: 2022230745}
+  - component: {fileID: 2022230746}
+  - component: {fileID: 2022230747}
   m_Layer: 5
   m_Name: MainSlot (3)
   m_TagString: Untagged
@@ -1421,6 +1494,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2416c90c76c854a4ab7d374ba709e524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!225 &2022230747
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2022230740}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2026308541
 GameObject:
   m_ObjectHideFlags: 0
@@ -1432,8 +1516,9 @@ GameObject:
   - component: {fileID: 2026308545}
   - component: {fileID: 2026308544}
   - component: {fileID: 2026308543}
-  - component: {fileID: 2026308546}
   - component: {fileID: 2026308547}
+  - component: {fileID: 2026308546}
+  - component: {fileID: 2026308548}
   m_Layer: 5
   m_Name: MainSlot
   m_TagString: Untagged
@@ -1539,3 +1624,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8008012e23f98b48afab960b4b5619d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!225 &2026308548
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2026308541}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0

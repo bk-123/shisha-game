@@ -62,8 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\DragHandler.cs" />
-    <Compile Include="Assets\Scripts\Flavours\IngredientsController.cs" />
-    <Compile Include="Assets\Scripts\GameScripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\Home Scene Scripts\BackToHome.cs" />
     <Compile Include="Assets\Scripts\Home Scene Scripts\HomeToAchievements.cs" />
     <Compile Include="Assets\Scripts\Home Scene Scripts\HomeToGame.cs" />
